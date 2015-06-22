@@ -9,6 +9,6 @@ script: phpunit
 
 notifications:
   webhooks:
-    - http://03c438cc.ngrok.io/ciintegrations/gitlab/4339b63e02c4bb7fa1489310c925003f
+    - http://03c438cc.ngrok.io/ciintegrations/travis/4339b63e02c4bb7fa1489310c925003f
 
 
