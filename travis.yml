@@ -1,3 +1,12 @@
+language: php
+
+php: 
+  - 5.3
+  - 5.4
+  - 5.5
+
+script: phpunit
+
 notifications:
   webhooks:
     - http://03c438cc.ngrok.io/ciintegrations/gitlab/4339b63e02c4bb7fa1489310c925003f
